@@ -1,0 +1,132 @@
+
+@media (max-width: 1200px) {
+    .logo-box{
+        height: 45px;
+    }
+    .main_menu>li {
+        margin: 0 4px;
+    }
+
+}
+@media (max-width: 991px) {
+    .main_menu {
+      display: none;
+    }
+    .nav-bar{
+        height: 100px;
+    }
+    .events{
+        height:100% !important;
+    }
+    .blo2{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pic-blo2{
+        width:100% !important;
+    }
+    .text-blo2 {
+        width: 100% !important;
+    }
+    .txt-effect1 {
+        width: 78% !important;
+        transform:translate(0) !important;
+        left: 11%;
+        top: -5%;
+    }
+    .table-main {
+        flex-direction: column;
+        padding: 0;
+    }
+    .table-first,.table-second {
+        width: 100%;
+    }
+    .signup-main{
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px) {
+    .icon1,.icon2,.icon3{
+        display: none;
+    }
+    .myslider-h2{
+        font-size: 70px !important;
+    }
+   .item-1{
+    width: 100%;
+   }
+   .item-2{
+    width: 100%;
+   }
+   .intro-inner{
+    flex-direction: column;
+   }
+   .intro-slide{
+    width: 100% !important;
+   }
+   .intro-pic{
+    height:unset;
+   }
+   .our-inner {
+    display: flex !important;
+    flex-direction: column;
+    /* grid-template-rows: 40% 60%!important; */
+   }
+   .intro-second {
+    width:unset !important;
+}
+.form-main {
+    flex-direction: column;
+}
+.form{
+    width: 100%;
+}
+.footer-inner {
+    flex-wrap: wrap;
+}
+.footer-slide{
+    width: 50% !important;
+}
+}
+@media (max-width: 576px) {
+    .myslider-h2{
+        font-size: 60px !important;
+    }  
+    .slider-text{
+        font-size: 50px !important;
+    }
+    .nav-bar{
+        height: 80px;
+    }
+    .intro-first {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .first-slide{
+        grid-template-rows: 74% 40% !important;
+    }
+    .blo2{
+        width: 100% !important;
+    }
+    .txt-effect1 {
+        width: 94% !important;
+        left: 3%;
+        top: -6%;
+        
+    }
+    .table-imgbox {
+        max-width:100%;
+    }
+    .footer-slide{
+        width: 100% !important;
+    }
+    .gallery-img{
+        max-height: 100% !important;
+    }
+}
+@media (max-width: 550px) {
+    .pato{
+        display: none;
+    }
+}
